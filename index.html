@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Energy Prediction</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<center>
+<div class="container">
+    <h2>Energy Consumption Prediction</h2>
+
+    <select id="building">
+        <option value="Residential">Residential</option>
+        <option value="Commercial">Commercial</option>
+        <option value="Industrial">Industrial</option>
+    </select><br>
+
+    <input type="number" id="sqft" placeholder="Square Footage"><br>
+    <input type="number" id="occupants" placeholder="Number of Occupants"><br>
+    <input type="number" id="appliances" placeholder="Appliances Used"><br>
+    <input type="number" id="temp" placeholder="Average Temperature"><br>
+    <select  id="day">
+        <option value="Weekday">Weekday</option>
+        <option value="Weekend">Weekend</option>
+    </select><br>
+
+    <button  type="button" onclick="predictEnergy()">Predict</button>
+    <p id="result"></p>
+    <h3 id="result"></h3>
+</div>
+</center>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
