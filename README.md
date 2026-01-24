@@ -123,5 +123,4 @@ This project demonstrates how artificial intelligence and machine learning can b
 Demo Video Link:https://1drv.ms/v/c/f74857fe64a549da/IQA5H41vQHICTaPORHYlQQHOAYfKD7HlB_gMSTqa2sKsOvw?e=lnofs6
 
 
-If you want, I can also add a “System Architecture” section explaining how data flows from the user to the model and back to the UI.
 
